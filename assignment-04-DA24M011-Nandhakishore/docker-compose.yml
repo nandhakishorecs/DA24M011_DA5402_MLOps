@@ -1,0 +1,36 @@
+services:
+  database:
+    build: ./database
+    container_name: news_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: news_admin
+      POSTGRES_PASSWORD: securepassword
+      POSTGRES_DB: news_db
+    ports:
+      - "54320:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  news_fetcher:
+    build: ./news_fetcher
+    container_name: news_fetcher
+    restart: unless-stopped
+    env_file:
+      - ./news_fetcher/.env
+    depends_on:
+      - database
+
+  news_webapp:
+    build: ./news_webapp
+    container_name: news_webapp
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./news_webapp/.env
+    depends_on:
+      - database
+
+volumes:
+  pgdata:

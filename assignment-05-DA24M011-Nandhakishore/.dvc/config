@@ -1,0 +1,4 @@
+[core]
+    remote = a5_dvc_remote
+['remote "a5_dvc_remote"']
+    url = /Users/nandhakishorecs/dvc_cache

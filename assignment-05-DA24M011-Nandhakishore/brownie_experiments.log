@@ -1,0 +1,7 @@
+INFO:__main__:Running experiment: brownie_v1_seed42
+INFO:__main__:Updated params.yaml: version=v1, seed=42
+INFO:__main__:Running experiment: brownie_v1+v2_seed42
+INFO:__main__:Updated params.yaml: version=v1+v2, seed=42
+INFO:__main__:Running experiment: brownie_v1+v2+v3_seed42
+INFO:__main__:Updated params.yaml: version=v1+v2+v3, seed=42
+INFO:__main__:Brownie experiments completed

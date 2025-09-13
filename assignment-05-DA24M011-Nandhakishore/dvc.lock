@@ -1,0 +1,110 @@
+schema: '2.0'
+stages:
+  pull_data:
+    cmd: python pull_data.py
+    deps:
+    - path: params.yaml
+      hash: md5
+      md5: 8740af2a750a1996fa51f3eaa9e78ded
+      size: 257
+    - path: pull_data.py
+      hash: md5
+      md5: 808d7b40928b7ccc7a8ef65af0045d05
+      size: 2363
+    outs:
+    - path: dataset.csv
+      hash: md5
+      md5: d7f6ddae0be510fb47d0d86d193b0f4f
+      size: 2868902
+  prepare_data:
+    cmd: python prepare_data.py
+    deps:
+    - path: dataset.csv
+      hash: md5
+      md5: d7f6ddae0be510fb47d0d86d193b0f4f
+      size: 2868902
+    - path: params.yaml
+      hash: md5
+      md5: 8740af2a750a1996fa51f3eaa9e78ded
+      size: 257
+    - path: prepare_data.py
+      hash: md5
+      md5: 99bb44b6b5612c3d9c7c516e6c41eaf0
+      size: 2254
+    outs:
+    - path: test.csv
+      hash: md5
+      md5: 703fa56e49608f07d82e757b5d2c32a6
+      size: 430266
+    - path: train.csv
+      hash: md5
+      md5: 87ff929905a972ea772a1b969e71ad1f
+      size: 2008299
+    - path: val.csv
+      hash: md5
+      md5: 4e57d795b6eaa62e1d08171ef706404d
+      size: 430361
+  train_model:
+    cmd: python train_model.py
+    deps:
+    - path: params.yaml
+      hash: md5
+      md5: 8740af2a750a1996fa51f3eaa9e78ded
+      size: 257
+    - path: train.csv
+      hash: md5
+      md5: 87ff929905a972ea772a1b969e71ad1f
+      size: 2008299
+    - path: train_model.py
+      hash: md5
+      md5: f5427a5eeef097d54fa604f71b537ea6
+      size: 4317
+    - path: val.csv
+      hash: md5
+      md5: 4e57d795b6eaa62e1d08171ef706404d
+      size: 430361
+    outs:
+    - path: best_params.json
+      hash: md5
+      md5: 452fcf8403e1d7c0653ed86937a8348b
+      size: 34
+    - path: model.pth
+      hash: md5
+      md5: cdb08729c18a5cdaafe5ae8c56719fc6
+      size: 321076
+  evaluate:
+    cmd: python evaluate.py
+    deps:
+    - path: best_params.json
+      hash: md5
+      md5: 452fcf8403e1d7c0653ed86937a8348b
+      size: 34
+    - path: evaluate.py
+      hash: md5
+      md5: b840ed6000bf581d682f2370e216ce1f
+      size: 3454
+    - path: model.pth
+      hash: md5
+      md5: cdb08729c18a5cdaafe5ae8c56719fc6
+      size: 321076
+    - path: params.yaml
+      hash: md5
+      md5: 8740af2a750a1996fa51f3eaa9e78ded
+      size: 257
+    - path: test.csv
+      hash: md5
+      md5: 703fa56e49608f07d82e757b5d2c32a6
+      size: 430266
+    outs:
+    - path: metrics.json
+      hash: md5
+      md5: b4f6a8a8e81ac1e1b35c6badccef89a1
+      size: 349
+    - path: misclassified.csv
+      hash: md5
+      md5: 80f4c95b35b6c3c573f43fd79d735b0b
+      size: 133037
+    - path: report.txt
+      hash: md5
+      md5: 6474a149ea392b7393d2334a46595161
+      size: 636

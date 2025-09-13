@@ -1,0 +1,24 @@
+2025-04-25 22:04:46,436 - INFO - Initializing Spark session
+2025-04-25 22:04:49,176 - INFO - Initializing sentiment analysis pipeline
+2025-04-25 22:04:50,448 - INFO - Reading Gourmet_Foods.txt
+2025-04-25 22:04:50,870 - INFO - Converting RDD to DataFrame
+2025-04-25 22:04:56,899 - INFO - Converting texts to Dataset
+2025-04-25 22:04:57,100 - INFO - Performing sentiment analysis
+2025-04-25 23:10:56,647 - INFO - Closing down clientserver connection
+2025-04-25 23:11:12,583 - INFO - Initializing Spark session
+2025-04-25 23:11:15,317 - INFO - Initializing sentiment analysis pipeline
+2025-04-25 23:11:16,279 - INFO - Reading Gourmet_Foods.txt
+2025-04-25 23:11:16,853 - INFO - Converting RDD to DataFrame
+2025-04-25 23:11:21,373 - INFO - Converting texts to Dataset
+2025-04-25 23:11:21,578 - INFO - Performing sentiment analysis
+2025-04-25 23:13:30,901 - INFO - Closing down clientserver connection
+2025-04-25 23:16:10,411 - INFO - Initializing Spark session
+2025-04-25 23:16:13,040 - INFO - Initializing sentiment analysis pipeline
+2025-04-25 23:16:14,301 - INFO - Reading Gourmet_Foods.txt
+2025-04-25 23:16:14,860 - INFO - Converting RDD to DataFrame
+2025-04-25 23:16:16,468 - INFO - Converting texts to Dataset
+2025-04-25 23:16:16,479 - INFO - Performing sentiment analysis
+2025-04-25 23:16:41,795 - INFO - Writing to Parquet file
+2025-04-25 23:16:43,238 - INFO - Displaying first 5 rows
+2025-04-25 23:16:44,082 - INFO - Stopping Spark session
+2025-04-25 23:16:44,514 - INFO - Closing down clientserver connection

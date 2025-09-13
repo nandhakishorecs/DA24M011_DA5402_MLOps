@@ -1,0 +1,20 @@
+2025-03-23 08:52:24,980 - INFO - Starting partition creation
+2025-03-23 08:52:35,061 - INFO - Created partition_v1 with 20000 images
+2025-03-23 08:52:47,976 - INFO - Created partition_v2 with 20000 images
+2025-03-23 08:52:58,625 - INFO - Created partition_v3 with 20000 images
+2025-03-23 08:52:58,625 - INFO - Partition creation completed
+2025-03-23 09:50:31,046 - INFO - Starting partition creation
+2025-03-23 09:50:31,078 - INFO - Collected 6000 images for class airplane
+2025-03-23 09:50:31,114 - INFO - Collected 6000 images for class automobile
+2025-03-23 09:50:31,144 - INFO - Collected 6000 images for class bird
+2025-03-23 09:50:31,173 - INFO - Collected 6000 images for class cat
+2025-03-23 09:50:31,207 - INFO - Collected 6000 images for class deer
+2025-03-23 09:50:31,237 - INFO - Collected 6000 images for class dog
+2025-03-23 09:50:31,273 - INFO - Collected 6000 images for class frog
+2025-03-23 09:50:31,304 - INFO - Collected 6000 images for class horse
+2025-03-23 09:50:31,340 - INFO - Collected 6000 images for class ship
+2025-03-23 09:50:31,378 - INFO - Collected 6000 images for class truck
+2025-03-23 09:50:48,807 - INFO - Created partition_v1 with 20000 images
+2025-03-23 09:51:09,332 - INFO - Created partition_v2 with 20000 images
+2025-03-23 09:51:25,320 - INFO - Created partition_v3 with 20000 images
+2025-03-23 09:51:25,320 - INFO - Partition creation completed

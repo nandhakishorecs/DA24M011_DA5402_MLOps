@@ -1,0 +1,14 @@
+2025-04-25 23:13:37,567 - INFO - Initializing Spark session
+2025-04-25 23:13:40,311 - INFO - Reading gourmet_foods.parquet
+2025-04-25 23:13:41,263 - ERROR - Failed to read Parquet file: [PATH_NOT_FOUND] Path does not exist: file:/Users/nandhakishorecs/Documents/IITM/Jan_2025/DA5402/submissions/assignment-09-DA24M011-Nandhakishore/gourmet_foods.parquet.
+2025-04-25 23:13:41,725 - INFO - Closing down clientserver connection
+2025-04-25 23:17:00,622 - INFO - Initializing Spark session
+2025-04-25 23:17:02,801 - INFO - Reading gourmet_foods.parquet
+2025-04-25 23:17:04,628 - INFO - Computing confusion matrix
+2025-04-25 23:17:06,112 - INFO - Calculated metrics: Precision=0.9641, Recall=0.7934
+2025-04-25 23:17:06,113 - INFO - Displayed confusion matrix and metrics
+2025-04-25 23:17:06,113 - INFO - Saving confusion matrix and metrics to confusion_matrix_stats.txt
+2025-04-25 23:17:06,113 - INFO - Saving confusion matrix as confusion_matrix.png
+2025-04-25 23:17:07,051 - INFO - Successfully saved confusion matrix as confusion_matrix.png
+2025-04-25 23:17:07,051 - INFO - Stopping Spark session
+2025-04-25 23:17:08,101 - INFO - Closing down clientserver connection

@@ -1,0 +1,8 @@
+mlflow
+tensorflow-macos
+numpy
+pillow
+scikit-learn
+editdistance
+scikit-learn
+python-Levenshtein

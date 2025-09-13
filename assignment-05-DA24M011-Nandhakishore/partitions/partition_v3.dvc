@@ -1,0 +1,6 @@
+outs:
+- md5: 3f18ed93eda70961b8a187f486bfdfcc.dir
+  size: 45359449
+  nfiles: 20000
+  hash: md5
+  path: partition_v3

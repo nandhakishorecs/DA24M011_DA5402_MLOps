@@ -1,0 +1,15 @@
+# Base configuration for Google News Scraper
+webpage:
+  base_url: "https://news.google.com"
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+  sub_heading: "Top stories"
+
+database:
+  dbname: "nandhakishorecs"
+  user: "nandhakishorecs"
+  password: ""
+  host: "localhost"
+  port: 5432
+
+pipeline:
+  frequency: 1800  # Run every half an hour (in seconds)

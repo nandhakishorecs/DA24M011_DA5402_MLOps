@@ -1,0 +1,190 @@
+2025-02-01 12:16:49 - ERROR - 
+Fatal error:	[Errno 2] No such file or directory: 'config.yaml'
+
+2025-02-02 00:52:34 - ERROR - 
+Fatal error:	[Errno 2] No such file or directory: 'config.yaml'
+
+2025-02-02 00:53:14 - INFO - Starting news pipeline execution
+2025-02-02 00:53:14 - ERROR - Pipeline failed: [Errno 2] No such file or directory: 'config.yaml'
+2025-02-02 00:53:14 - ERROR - Traceback (most recent call last):
+  File "/Users/nandhakishorecs/Documents/IITM/Jan_2025/DA5402/Assignment1/module6.py", line 30, in run_pipeline
+    home_scraper = WebPageScrapper('config.yaml')
+  File "/Users/nandhakishorecs/Documents/IITM/Jan_2025/DA5402/Assignment1/module1.py", line 9, in __init__
+    self._config_file = self._load_config(config_file_path)
+                        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/nandhakishorecs/Documents/IITM/Jan_2025/DA5402/Assignment1/module1.py", line 14, in _load_config
+    with open(config_file_path, 'r') as file:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config.yaml'
+
+2025-02-02 00:53:14 - INFO - 
+Waiting 60 seconds until next run...
+
+2025-02-02 00:53:28 - INFO - 
+Pipeline stopped by user
+
+2025-02-02 00:55:01 - INFO - Starting news pipeline execution
+2025-02-02 00:55:11 - INFO - Pipeline completed. Stored: 7, Skipped: 0, Duration: 10.34s
+2025-02-02 00:55:11 - INFO - 
+Waiting 60 seconds until next run...
+
+2025-02-02 00:56:11 - INFO - Starting news pipeline execution
+2025-02-02 00:56:25 - INFO - Pipeline completed. Stored: 11, Skipped: 0, Duration: 13.33s
+2025-02-02 00:56:25 - INFO - 
+Waiting 60 seconds until next run...
+
+2025-02-02 00:56:31 - INFO - 
+Pipeline stopped by user
+
+2025-02-02 01:03:28 - INFO - Starting news pipeline execution
+2025-02-02 01:03:38 - INFO - Pipeline completed. Stored: 8, Skipped: 0, Duration: 9.28s
+2025-02-02 01:03:38 - INFO - 
+Waiting 60 seconds until next run...
+
+2025-02-02 01:04:32 - INFO - 
+Pipeline stopped by user
+
+2025-02-02 01:18:43 - INFO - Starting news pipeline execution
+2025-02-02 01:18:54 - INFO - Pipeline completed. Stored: 12, Skipped: 0, Duration: 11.57s
+2025-02-02 01:18:54 - INFO - 
+Waiting 60 seconds until next run...
+
+2025-02-02 01:19:47 - INFO - 
+Pipeline stopped by user
+
+2025-02-02 01:20:47 - INFO - Starting news pipeline execution
+2025-02-02 01:20:57 - INFO - Pipeline completed. Stored: 16, Skipped: 0, Duration: 9.90s
+2025-02-02 01:20:57 - INFO - 
+Waiting 60 seconds until next run...
+
+2025-02-02 01:21:24 - INFO - 
+Pipeline stopped by user
+
+2025-02-02 01:22:21 - INFO - Starting news scrapping pipeline execution
+2025-02-02 01:22:29 - INFO - Pipeline completed. Stored: 8, Skipped: 0, Duration: 7.97s
+2025-02-02 01:22:29 - INFO - 
+Waiting 60 seconds until next run...
+
+2025-02-02 01:22:29 - INFO - Press Ctrl + C (or) cmd +  C to stop
+
+2025-02-02 01:22:32 - INFO - 
+Pipeline stopped by user
+
+2025-02-02 01:23:44 - INFO - 
+Starting news scrapping pipeline...
+
+2025-02-02 01:24:00 - INFO - 
+Pipeline completed. Stored: 16, Skipped: 0, Duration: 15.85s
+
+2025-02-02 01:24:00 - INFO - 
+Waiting 60 seconds until next run...
+
+2025-02-02 01:24:00 - INFO - Press Ctrl + C (or) cmd +  C to stop
+
+2025-02-02 01:24:07 - INFO - 
+Pipeline stopped by user
+
+2025-02-02 01:31:35 - ERROR - 
+Fatal error:	[Errno 2] No such file or directory: 'config.yaml'
+
+2025-02-02 01:31:48 - INFO - 
+Starting news scrapping pipeline...
+
+2025-02-02 01:31:59 - INFO - 
+Pipeline completed. Stored: 12, Skipped: 0, Duration: 11.23s
+
+2025-02-02 01:31:59 - INFO - 
+Waiting 60 seconds until next run...
+
+2025-02-02 01:31:59 - INFO - Press Ctrl + C to stop
+
+2025-02-02 01:32:04 - INFO - 
+Pipeline stopped by user
+
+2025-02-02 10:55:27 - INFO - 
+Starting news scrapping pipeline...
+
+2025-02-02 10:55:54 - INFO - 
+Pipeline completed. Stored: 25, Skipped: 0, Duration: 27.27s
+
+2025-02-02 10:55:54 - INFO - 
+Waiting 60 seconds until next run...
+
+2025-02-02 10:55:54 - INFO - Press Ctrl + C to stop
+
+2025-02-02 10:56:18 - INFO - 
+Pipeline stopped by user
+
+2025-02-02 12:22:50 - INFO - 
+Starting news scrapping pipeline...
+
+2025-02-02 12:23:15 - INFO - 
+Pipeline completed. Stored: 26, Skipped: 0, Duration: 24.91s
+
+2025-02-02 12:23:15 - INFO - 
+Waiting 1800 seconds until next run...
+
+2025-02-02 12:23:15 - INFO - Press Ctrl + C to stop
+
+2025-02-02 12:23:44 - INFO - 
+Pipeline stopped by user
+
+2025-02-02 15:32:02 - ERROR - 
+Fatal error:	[Errno 2] No such file or directory: '/Users/nandhakishorecs/Documents/IITM/Jan_2025/DA5402/Assignment1/DA24M011_Assignment1/config.yaml'
+
+2025-02-02 15:32:14 - ERROR - 
+Fatal error:	[Errno 2] No such file or directory: '/Users/nandhakishorecs/Documents/IITM/Jan_2025/DA5402/Assignment1/DA24M011_Assignment1/config.yaml'
+
+2025-02-02 16:24:00 - ERROR - 
+Fatal error:	[Errno 2] No such file or directory: '/Users/nandhakishorecs/Documents/IITM/Jan_2025/DA5402/Assignment1/DA24M011_Assignment1/config.yaml'
+
+2025-02-02 16:27:27 - ERROR - 
+Fatal error:	[Errno 2] No such file or directory: 'config.yaml'
+
+2025-02-02 16:28:29 - INFO - 
+Starting news scrapping pipeline...
+
+2025-02-02 16:28:29 - ERROR - 
+Pipeline failed:	[Errno 2] No such file or directory: 'config.yaml'
+
+2025-02-02 16:28:29 - ERROR - Traceback (most recent call last):
+  File "/Users/nandhakishorecs/Documents/IITM/Jan_2025/DA5402/submissions/assignment-01-DA24M011-Nandhakishore/DA24M011_Assignment1/module6.py", line 26, in run_pipeline
+    home_scraper = WebPageScrapper('config.yaml')
+  File "/Users/nandhakishorecs/Documents/IITM/Jan_2025/DA5402/submissions/assignment-01-DA24M011-Nandhakishore/DA24M011_Assignment1/module1.py", line 8, in __init__
+    self._config_file = self._load_config(config_file_path)
+                        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/nandhakishorecs/Documents/IITM/Jan_2025/DA5402/submissions/assignment-01-DA24M011-Nandhakishore/DA24M011_Assignment1/module1.py", line 13, in _load_config
+    with open(config_file_path, 'r') as file:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config.yaml'
+
+2025-02-02 16:28:29 - INFO - 
+Waiting 1800 seconds until next run...
+
+2025-02-02 16:28:29 - INFO - Press Ctrl + C to stop
+
+2025-02-02 16:28:56 - INFO - 
+Pipeline stopped by user
+
+2025-02-02 16:28:57 - INFO - 
+Starting news scrapping pipeline...
+
+2025-02-02 16:29:22 - INFO - Duplicate found - Headline: Kia Sales Jan 2025 - 5,546 Syros SUV Units Dispatched - Different day duplicate found - Similarity: 1.00
+2025-02-02 16:29:22 - INFO - Duplicate found - Headline: Kia Sales Jan 2025 - 5,546 Syros SUV Units Dispatched - Different day duplicate found - Similarity: 1.00
+2025-02-02 16:29:22 - INFO - Duplicate found - Headline: Budget 2025: Dixon Technologies explains why the flat panel display custom duty hike is a positive - Different day duplicate found - Similarity: 1.00
+2025-02-02 16:29:22 - INFO - Duplicate found - Headline: Budget 2025: Dixon Technologies explains why the flat panel display custom duty hike is a positive - Different day duplicate found - Similarity: 1.00
+2025-02-02 16:29:31 - INFO - Duplicate found - Headline: Kia Sales Jan 2025 - 5,546 Syros SUV Units Dispatched - Different day duplicate found - Similarity: 1.00
+2025-02-02 16:29:31 - INFO - Duplicate found - Headline: Kia Sales Jan 2025 - 5,546 Syros SUV Units Dispatched - Different day duplicate found - Similarity: 1.00
+2025-02-02 16:29:31 - INFO - Duplicate found - Headline: What did the Budget say about ‘Make in India’? - Different day duplicate found - Similarity: 1.00
+2025-02-02 16:29:31 - INFO - Duplicate found - Headline: What did the Budget say about ‘Make in India’? - Different day duplicate found - Similarity: 1.00
+2025-02-02 16:29:31 - INFO - 
+Pipeline completed. Stored: 34, Skipped: 4, Duration: 33.64s
+
+2025-02-02 16:29:31 - INFO - 
+Waiting 1800 seconds until next run...
+
+2025-02-02 16:29:31 - INFO - Press Ctrl + C to stop
+
+2025-02-02 16:29:36 - INFO - 
+Pipeline stopped by user
+

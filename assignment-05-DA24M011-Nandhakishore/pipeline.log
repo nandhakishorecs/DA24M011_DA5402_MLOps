@@ -1,0 +1,822 @@
+INFO:__main__:Pulling data version: v1
+INFO:__main__:Data pulled and saved to dataset.csv
+INFO:__main__:Preparing data splits
+2025-03-23 09:37:51,103 - INFO - Pulling data for version: v1
+2025-03-23 09:37:53,007 - WARNING - Class directory partitions/partition_v1/airplane not found
+2025-03-23 09:37:53,007 - WARNING - Class directory partitions/partition_v1/automobile not found
+2025-03-23 09:37:53,007 - WARNING - Class directory partitions/partition_v1/bird not found
+2025-03-23 09:37:53,007 - WARNING - Class directory partitions/partition_v1/cat not found
+2025-03-23 09:37:53,007 - WARNING - Class directory partitions/partition_v1/deer not found
+2025-03-23 09:37:53,007 - WARNING - Class directory partitions/partition_v1/dog not found
+2025-03-23 09:37:53,007 - WARNING - Class directory partitions/partition_v1/frog not found
+2025-03-23 09:37:53,007 - WARNING - Class directory partitions/partition_v1/horse not found
+2025-03-23 09:37:53,007 - WARNING - Class directory partitions/partition_v1/ship not found
+2025-03-23 09:37:53,007 - WARNING - Class directory partitions/partition_v1/truck not found
+2025-03-23 09:37:53,007 - ERROR - No images found in partitions/partition_v1
+INFO:__main__:Pulling data version: v1
+INFO:__main__:Data pulled and saved to dataset.csv
+2025-03-23 09:38:17,847 - INFO - Starting data preparation
+2025-03-23 09:38:17,850 - ERROR - Input dataset dataset.csv is empty
+2025-03-23 09:48:33,647 - INFO - Pulling data for version: v1
+2025-03-23 09:48:33,648 - INFO - Attempting DVC checkout for partitions/partition_v1.dvc
+2025-03-23 09:48:35,504 - INFO - Partition directory partitions/partition_v1 exists
+2025-03-23 09:48:35,504 - WARNING - No class sub-folders found in partitions/partition_v1, trying flat structure
+2025-03-23 09:48:35,529 - ERROR - Flat structure detected, but label inference not implemented. Please ensure class sub-folders.
+2025-03-23 09:56:39,008 - INFO - Pulling data for version: v1
+2025-03-23 09:56:39,008 - INFO - Attempting DVC checkout for partitions/partition_v1.dvc
+2025-03-23 09:56:40,900 - INFO - Partition directory partitions/partition_v1 exists
+2025-03-23 09:56:40,902 - INFO - Found 2000 images in partitions/partition_v1/airplane
+2025-03-23 09:56:40,905 - INFO - Found 2000 images in partitions/partition_v1/automobile
+2025-03-23 09:56:40,907 - INFO - Found 2000 images in partitions/partition_v1/bird
+2025-03-23 09:56:40,909 - INFO - Found 2000 images in partitions/partition_v1/cat
+2025-03-23 09:56:40,912 - INFO - Found 2000 images in partitions/partition_v1/deer
+2025-03-23 09:56:40,914 - INFO - Found 2000 images in partitions/partition_v1/dog
+2025-03-23 09:56:40,916 - INFO - Found 2000 images in partitions/partition_v1/frog
+2025-03-23 09:56:40,919 - INFO - Found 2000 images in partitions/partition_v1/horse
+2025-03-23 09:56:40,921 - INFO - Found 2000 images in partitions/partition_v1/ship
+2025-03-23 09:56:40,923 - INFO - Found 2000 images in partitions/partition_v1/truck
+2025-03-23 09:56:40,958 - INFO - Saved 20000 images to dataset.csv
+2025-03-23 09:58:17,065 - INFO - Starting data preparation
+2025-03-23 09:58:17,085 - INFO - Loaded dataset with 20000 samples
+2025-03-23 09:58:17,090 - INFO - Train split: 14000 samples
+2025-03-23 09:58:17,090 - INFO - Validation split: 3000 samples
+2025-03-23 09:58:17,090 - INFO - Test split: 3000 samples
+2025-03-23 09:58:17,118 - INFO - Data splits saved successfully
+2025-03-23 09:59:01,573 - INFO - Pulling data for version: v1
+2025-03-23 09:59:01,573 - INFO - Attempting DVC checkout for partitions/partition_v1.dvc
+2025-03-23 09:59:03,100 - INFO - Partition directory partitions/partition_v1 exists
+2025-03-23 09:59:03,103 - INFO - Found 2000 images in partitions/partition_v1/airplane
+2025-03-23 09:59:03,105 - INFO - Found 2000 images in partitions/partition_v1/automobile
+2025-03-23 09:59:03,107 - INFO - Found 2000 images in partitions/partition_v1/bird
+2025-03-23 09:59:03,110 - INFO - Found 2000 images in partitions/partition_v1/cat
+2025-03-23 09:59:03,112 - INFO - Found 2000 images in partitions/partition_v1/deer
+2025-03-23 09:59:03,114 - INFO - Found 2000 images in partitions/partition_v1/dog
+2025-03-23 09:59:03,117 - INFO - Found 2000 images in partitions/partition_v1/frog
+2025-03-23 09:59:03,119 - INFO - Found 2000 images in partitions/partition_v1/horse
+2025-03-23 09:59:03,121 - INFO - Found 2000 images in partitions/partition_v1/ship
+2025-03-23 09:59:03,124 - INFO - Found 2000 images in partitions/partition_v1/truck
+2025-03-23 09:59:03,157 - INFO - Saved 20000 images to dataset.csv
+2025-03-23 09:59:04,457 - INFO - Starting data preparation
+2025-03-23 09:59:04,476 - INFO - Loaded dataset with 20000 samples
+2025-03-23 09:59:04,480 - INFO - Train split: 14000 samples
+2025-03-23 09:59:04,480 - INFO - Validation split: 3000 samples
+2025-03-23 09:59:04,480 - INFO - Test split: 3000 samples
+2025-03-23 09:59:04,510 - INFO - Data splits saved successfully
+INFO:__main__:Starting model training and tuning
+INFO:__main__:LR: 0.001, Filters: 16, Val Acc: 0.5676666666666667
+INFO:__main__:LR: 0.001, Filters: 32, Val Acc: 0.6393333333333333
+INFO:__main__:LR: 0.001, Filters: 64, Val Acc: 0.6416666666666667
+INFO:__main__:LR: 0.0005, Filters: 16, Val Acc: 0.5416666666666666
+INFO:__main__:LR: 0.0005, Filters: 32, Val Acc: 0.5816666666666667
+INFO:__main__:LR: 0.0005, Filters: 64, Val Acc: 0.6293333333333333
+INFO:__main__:LR: 0.0001, Filters: 16, Val Acc: 0.462
+INFO:__main__:LR: 0.0001, Filters: 32, Val Acc: 0.478
+INFO:__main__:LR: 0.0001, Filters: 64, Val Acc: 0.5266666666666666
+INFO:__main__:Best model saved with accuracy: 0.6416666666666667
+INFO:__main__:Starting evaluation
+INFO:__main__:Starting model training and tuning
+INFO:__main__:LR: 0.001, Filters: 16, Val Acc: 0.567
+INFO:__main__:LR: 0.001, Filters: 32, Val Acc: 0.6096666666666667
+INFO:__main__:LR: 0.001, Filters: 64, Val Acc: 0.6386666666666667
+INFO:__main__:LR: 0.0005, Filters: 16, Val Acc: 0.5473333333333333
+INFO:__main__:LR: 0.0005, Filters: 32, Val Acc: 0.5543333333333333
+INFO:__main__:LR: 0.0005, Filters: 64, Val Acc: 0.6233333333333333
+INFO:__main__:LR: 0.0001, Filters: 16, Val Acc: 0.44266666666666665
+INFO:__main__:LR: 0.0001, Filters: 32, Val Acc: 0.4806666666666667
+INFO:__main__:LR: 0.0001, Filters: 64, Val Acc: 0.5436666666666666
+INFO:__main__:Best model saved with accuracy: 0.6386666666666667, params: {'lr': 0.001, 'conv_filters': 64}
+INFO:__main__:Starting evaluation
+INFO:__main__:Loaded best conv_filters: 64
+INFO:__main__:Evaluation completed and report saved
+INFO:__main__:Pulling data for version: v1
+INFO:__main__:Checking out partitions/partition_v1.dvc
+INFO:__main__:Found 2000 images in partitions/partition_v1/airplane
+INFO:__main__:Found 2000 images in partitions/partition_v1/automobile
+INFO:__main__:Found 2000 images in partitions/partition_v1/bird
+INFO:__main__:Found 2000 images in partitions/partition_v1/cat
+INFO:__main__:Found 2000 images in partitions/partition_v1/deer
+INFO:__main__:Found 2000 images in partitions/partition_v1/dog
+INFO:__main__:Found 2000 images in partitions/partition_v1/frog
+INFO:__main__:Found 2000 images in partitions/partition_v1/horse
+INFO:__main__:Found 2000 images in partitions/partition_v1/ship
+INFO:__main__:Found 2000 images in partitions/partition_v1/truck
+INFO:__main__:Saved 20000 images to dataset.csv
+2025-03-23 11:23:17,293 - INFO - Starting data preparation
+2025-03-23 11:23:17,311 - INFO - Loaded dataset with 20000 samples
+2025-03-23 11:23:17,316 - INFO - Train split: 14000 samples
+2025-03-23 11:23:17,316 - INFO - Validation split: 3000 samples
+2025-03-23 11:23:17,316 - INFO - Test split: 3000 samples
+2025-03-23 11:23:17,344 - INFO - Data splits saved successfully
+INFO:__main__:Starting model training and tuning
+INFO:__main__:LR: 0.001, Filters: 16, Val Acc: 0.579
+INFO:__main__:LR: 0.001, Filters: 32, Val Acc: 0.62
+INFO:__main__:LR: 0.001, Filters: 64, Val Acc: 0.6316666666666667
+INFO:__main__:LR: 0.0005, Filters: 16, Val Acc: 0.5523333333333333
+INFO:__main__:LR: 0.0005, Filters: 32, Val Acc: 0.58
+INFO:__main__:LR: 0.0005, Filters: 64, Val Acc: 0.6306666666666667
+INFO:__main__:LR: 0.0001, Filters: 16, Val Acc: 0.44566666666666666
+INFO:__main__:LR: 0.0001, Filters: 32, Val Acc: 0.4713333333333333
+INFO:__main__:LR: 0.0001, Filters: 64, Val Acc: 0.5406666666666666
+INFO:__main__:Best model saved with accuracy: 0.6316666666666667, params: {'lr': 0.001, 'conv_filters': 64}
+INFO:__main__:Starting evaluation
+INFO:__main__:Loaded best conv_filters: 64
+INFO:__main__:Evaluation completed and report saved
+INFO:__main__:Pulling data for version: v1
+INFO:__main__:Checking out partitions/partition_v1.dvc
+INFO:__main__:Found 2000 images in partitions/partition_v1/airplane
+INFO:__main__:Found 2000 images in partitions/partition_v1/automobile
+INFO:__main__:Found 2000 images in partitions/partition_v1/bird
+INFO:__main__:Found 2000 images in partitions/partition_v1/cat
+INFO:__main__:Found 2000 images in partitions/partition_v1/deer
+INFO:__main__:Found 2000 images in partitions/partition_v1/dog
+INFO:__main__:Found 2000 images in partitions/partition_v1/frog
+INFO:__main__:Found 2000 images in partitions/partition_v1/horse
+INFO:__main__:Found 2000 images in partitions/partition_v1/ship
+INFO:__main__:Found 2000 images in partitions/partition_v1/truck
+INFO:__main__:Saved 20000 images to dataset.csv
+2025-03-23 11:47:52,018 - INFO - Starting data preparation
+2025-03-23 11:47:52,044 - INFO - Loaded dataset with 20000 samples
+2025-03-23 11:47:52,052 - INFO - Train split: 14000 samples
+2025-03-23 11:47:52,052 - INFO - Validation split: 3000 samples
+2025-03-23 11:47:52,052 - INFO - Test split: 3000 samples
+2025-03-23 11:47:52,091 - INFO - Data splits saved successfully
+INFO:__main__:Starting model training and tuning
+INFO:__main__:LR: 0.001, Filters: 16, Val Acc: 0.5646666666666667
+INFO:__main__:LR: 0.001, Filters: 32, Val Acc: 0.6126666666666667
+INFO:__main__:LR: 0.001, Filters: 64, Val Acc: 0.6296666666666667
+INFO:__main__:LR: 0.0005, Filters: 16, Val Acc: 0.5146666666666667
+INFO:__main__:LR: 0.0005, Filters: 32, Val Acc: 0.5803333333333334
+INFO:__main__:LR: 0.0005, Filters: 64, Val Acc: 0.6303333333333333
+INFO:__main__:LR: 0.0001, Filters: 16, Val Acc: 0.4256666666666667
+INFO:__main__:LR: 0.0001, Filters: 32, Val Acc: 0.4646666666666667
+INFO:__main__:LR: 0.0001, Filters: 64, Val Acc: 0.5123333333333333
+INFO:__main__:Best model saved with accuracy: 0.6303333333333333, params: {'lr': 0.0005, 'conv_filters': 64}
+INFO:__main__:Starting evaluation
+INFO:__main__:Loaded best conv_filters: 64
+INFO:__main__:Evaluation completed and report saved
+INFO:__main__:Pulling data for version: v1
+INFO:__main__:Checking out partitions/partition_v1.dvc
+INFO:__main__:Found 2000 images in partitions/partition_v1/airplane
+INFO:__main__:Found 2000 images in partitions/partition_v1/automobile
+INFO:__main__:Found 2000 images in partitions/partition_v1/bird
+INFO:__main__:Found 2000 images in partitions/partition_v1/cat
+INFO:__main__:Found 2000 images in partitions/partition_v1/deer
+INFO:__main__:Found 2000 images in partitions/partition_v1/dog
+INFO:__main__:Found 2000 images in partitions/partition_v1/frog
+INFO:__main__:Found 2000 images in partitions/partition_v1/horse
+INFO:__main__:Found 2000 images in partitions/partition_v1/ship
+INFO:__main__:Found 2000 images in partitions/partition_v1/truck
+INFO:__main__:Saved 20000 images to dataset.csv
+2025-03-23 12:12:29,810 - INFO - Starting data preparation
+2025-03-23 12:12:29,829 - INFO - Loaded dataset with 20000 samples
+2025-03-23 12:12:29,835 - INFO - Train split: 14000 samples
+2025-03-23 12:12:29,836 - INFO - Validation split: 3000 samples
+2025-03-23 12:12:29,836 - INFO - Test split: 3000 samples
+2025-03-23 12:12:29,865 - INFO - Data splits saved successfully
+INFO:__main__:Starting model training and tuning
+INFO:__main__:LR: 0.001, Filters: 16, Val Acc: 0.5753333333333334
+INFO:__main__:LR: 0.001, Filters: 32, Val Acc: 0.6306666666666667
+INFO:__main__:LR: 0.001, Filters: 64, Val Acc: 0.6136666666666667
+INFO:__main__:LR: 0.0005, Filters: 16, Val Acc: 0.5376666666666666
+INFO:__main__:LR: 0.0005, Filters: 32, Val Acc: 0.5773333333333334
+INFO:__main__:LR: 0.0005, Filters: 64, Val Acc: 0.6363333333333333
+INFO:__main__:LR: 0.0001, Filters: 16, Val Acc: 0.426
+INFO:__main__:LR: 0.0001, Filters: 32, Val Acc: 0.4703333333333333
+INFO:__main__:LR: 0.0001, Filters: 64, Val Acc: 0.5076666666666667
+INFO:__main__:Best model saved with accuracy: 0.6363333333333333, params: {'lr': 0.0005, 'conv_filters': 64}
+INFO:__main__:Starting evaluation
+INFO:__main__:Loaded best conv_filters: 64
+INFO:__main__:Evaluation completed and report saved
+INFO:__main__:Pulling data for version: v2
+INFO:__main__:Checking out partitions/partition_v2.dvc
+INFO:__main__:Found 2000 images in partitions/partition_v2/airplane
+INFO:__main__:Found 2000 images in partitions/partition_v2/automobile
+INFO:__main__:Found 2000 images in partitions/partition_v2/bird
+INFO:__main__:Found 2000 images in partitions/partition_v2/cat
+INFO:__main__:Found 2000 images in partitions/partition_v2/deer
+INFO:__main__:Found 2000 images in partitions/partition_v2/dog
+INFO:__main__:Found 2000 images in partitions/partition_v2/frog
+INFO:__main__:Found 2000 images in partitions/partition_v2/horse
+INFO:__main__:Found 2000 images in partitions/partition_v2/ship
+INFO:__main__:Found 2000 images in partitions/partition_v2/truck
+INFO:__main__:Saved 20000 images to dataset.csv
+2025-03-23 12:36:39,777 - INFO - Starting data preparation
+2025-03-23 12:36:39,797 - INFO - Loaded dataset with 20000 samples
+2025-03-23 12:36:39,802 - INFO - Train split: 14000 samples
+2025-03-23 12:36:39,803 - INFO - Validation split: 3000 samples
+2025-03-23 12:36:39,803 - INFO - Test split: 3000 samples
+2025-03-23 12:36:39,832 - INFO - Data splits saved successfully
+INFO:__main__:Starting model training and tuning
+INFO:__main__:LR: 0.001, Filters: 16, Val Acc: 0.5813333333333334
+INFO:__main__:LR: 0.001, Filters: 32, Val Acc: 0.6386666666666667
+INFO:__main__:LR: 0.001, Filters: 64, Val Acc: 0.6413333333333333
+INFO:__main__:LR: 0.0005, Filters: 16, Val Acc: 0.5356666666666666
+INFO:__main__:LR: 0.0005, Filters: 32, Val Acc: 0.5933333333333334
+INFO:__main__:LR: 0.0005, Filters: 64, Val Acc: 0.6306666666666667
+INFO:__main__:LR: 0.0001, Filters: 16, Val Acc: 0.42233333333333334
+INFO:__main__:LR: 0.0001, Filters: 32, Val Acc: 0.4683333333333333
+INFO:__main__:LR: 0.0001, Filters: 64, Val Acc: 0.5356666666666666
+INFO:__main__:Best model saved with accuracy: 0.6413333333333333, params: {'lr': 0.001, 'conv_filters': 64}
+INFO:__main__:Starting evaluation
+INFO:__main__:Loaded best conv_filters: 64
+INFO:__main__:Evaluation completed and report saved
+INFO:__main__:Pulling data for version: v2
+INFO:__main__:Checking out partitions/partition_v2.dvc
+INFO:__main__:Found 2000 images in partitions/partition_v2/airplane
+INFO:__main__:Found 2000 images in partitions/partition_v2/automobile
+INFO:__main__:Found 2000 images in partitions/partition_v2/bird
+INFO:__main__:Found 2000 images in partitions/partition_v2/cat
+INFO:__main__:Found 2000 images in partitions/partition_v2/deer
+INFO:__main__:Found 2000 images in partitions/partition_v2/dog
+INFO:__main__:Found 2000 images in partitions/partition_v2/frog
+INFO:__main__:Found 2000 images in partitions/partition_v2/horse
+INFO:__main__:Found 2000 images in partitions/partition_v2/ship
+INFO:__main__:Found 2000 images in partitions/partition_v2/truck
+INFO:__main__:Saved 20000 images to dataset.csv
+2025-03-23 12:57:19,953 - INFO - Starting data preparation
+2025-03-23 12:57:19,987 - INFO - Loaded dataset with 20000 samples
+2025-03-23 12:57:20,014 - INFO - Train split: 14000 samples
+2025-03-23 12:57:20,015 - INFO - Validation split: 3000 samples
+2025-03-23 12:57:20,015 - INFO - Test split: 3000 samples
+2025-03-23 12:57:20,069 - INFO - Data splits saved successfully
+INFO:__main__:Starting model training and tuning
+INFO:__main__:LR: 0.001, Filters: 16, Val Acc: 0.5656666666666667
+INFO:__main__:LR: 0.001, Filters: 32, Val Acc: 0.6266666666666667
+INFO:__main__:LR: 0.001, Filters: 64, Val Acc: 0.652
+INFO:__main__:LR: 0.0005, Filters: 16, Val Acc: 0.5416666666666666
+INFO:__main__:LR: 0.0005, Filters: 32, Val Acc: 0.597
+INFO:__main__:LR: 0.0005, Filters: 64, Val Acc: 0.6366666666666667
+INFO:__main__:LR: 0.0001, Filters: 16, Val Acc: 0.43266666666666664
+INFO:__main__:LR: 0.0001, Filters: 32, Val Acc: 0.473
+INFO:__main__:LR: 0.0001, Filters: 64, Val Acc: 0.5266666666666666
+INFO:__main__:Best model saved with accuracy: 0.652, params: {'lr': 0.001, 'conv_filters': 64}
+INFO:__main__:Starting evaluation
+INFO:__main__:Loaded best conv_filters: 64
+INFO:__main__:Evaluation completed and report saved
+INFO:__main__:Pulling data for version: v2
+INFO:__main__:Checking out partitions/partition_v2.dvc
+INFO:__main__:Found 2000 images in partitions/partition_v2/airplane
+INFO:__main__:Found 2000 images in partitions/partition_v2/automobile
+INFO:__main__:Found 2000 images in partitions/partition_v2/bird
+INFO:__main__:Found 2000 images in partitions/partition_v2/cat
+INFO:__main__:Found 2000 images in partitions/partition_v2/deer
+INFO:__main__:Found 2000 images in partitions/partition_v2/dog
+INFO:__main__:Found 2000 images in partitions/partition_v2/frog
+INFO:__main__:Found 2000 images in partitions/partition_v2/horse
+INFO:__main__:Found 2000 images in partitions/partition_v2/ship
+INFO:__main__:Found 2000 images in partitions/partition_v2/truck
+INFO:__main__:Saved 20000 images to dataset.csv
+2025-03-23 13:19:41,783 - INFO - Starting data preparation
+2025-03-23 13:19:41,807 - INFO - Loaded dataset with 20000 samples
+2025-03-23 13:19:41,813 - INFO - Train split: 14000 samples
+2025-03-23 13:19:41,814 - INFO - Validation split: 3000 samples
+2025-03-23 13:19:41,814 - INFO - Test split: 3000 samples
+2025-03-23 13:19:41,862 - INFO - Data splits saved successfully
+INFO:__main__:Starting model training and tuning
+INFO:__main__:LR: 0.001, Filters: 16, Val Acc: 0.5733333333333334
+INFO:__main__:LR: 0.001, Filters: 32, Val Acc: 0.592
+INFO:__main__:LR: 0.001, Filters: 64, Val Acc: 0.655
+INFO:__main__:LR: 0.0005, Filters: 16, Val Acc: 0.5323333333333333
+INFO:__main__:LR: 0.0005, Filters: 32, Val Acc: 0.5596666666666666
+INFO:__main__:LR: 0.0005, Filters: 64, Val Acc: 0.6306666666666667
+INFO:__main__:LR: 0.0001, Filters: 16, Val Acc: 0.43366666666666664
+INFO:__main__:LR: 0.0001, Filters: 32, Val Acc: 0.4836666666666667
+INFO:__main__:LR: 0.0001, Filters: 64, Val Acc: 0.527
+INFO:__main__:Best model saved with accuracy: 0.655, params: {'lr': 0.001, 'conv_filters': 64}
+INFO:__main__:Starting evaluation
+INFO:__main__:Loaded best conv_filters: 64
+INFO:__main__:Evaluation completed and report saved
+INFO:__main__:Pulling data for version: v3
+INFO:__main__:Checking out partitions/partition_v3.dvc
+INFO:__main__:Found 2000 images in partitions/partition_v3/airplane
+INFO:__main__:Found 2000 images in partitions/partition_v3/automobile
+INFO:__main__:Found 2000 images in partitions/partition_v3/bird
+INFO:__main__:Found 2000 images in partitions/partition_v3/cat
+INFO:__main__:Found 2000 images in partitions/partition_v3/deer
+INFO:__main__:Found 2000 images in partitions/partition_v3/dog
+INFO:__main__:Found 2000 images in partitions/partition_v3/frog
+INFO:__main__:Found 2000 images in partitions/partition_v3/horse
+INFO:__main__:Found 2000 images in partitions/partition_v3/ship
+INFO:__main__:Found 2000 images in partitions/partition_v3/truck
+INFO:__main__:Saved 20000 images to dataset.csv
+2025-03-23 13:36:56,169 - INFO - Starting data preparation
+2025-03-23 13:36:56,189 - INFO - Loaded dataset with 20000 samples
+2025-03-23 13:36:56,195 - INFO - Train split: 14000 samples
+2025-03-23 13:36:56,195 - INFO - Validation split: 3000 samples
+2025-03-23 13:36:56,195 - INFO - Test split: 3000 samples
+2025-03-23 13:36:56,232 - INFO - Data splits saved successfully
+INFO:__main__:Starting model training and tuning
+INFO:__main__:LR: 0.001, Filters: 16, Val Acc: 0.5663333333333334
+INFO:__main__:LR: 0.001, Filters: 32, Val Acc: 0.6236666666666667
+INFO:__main__:LR: 0.001, Filters: 64, Val Acc: 0.6363333333333333
+INFO:__main__:LR: 0.0005, Filters: 16, Val Acc: 0.5266666666666666
+INFO:__main__:LR: 0.0005, Filters: 32, Val Acc: 0.585
+INFO:__main__:LR: 0.0005, Filters: 64, Val Acc: 0.6186666666666667
+INFO:__main__:LR: 0.0001, Filters: 16, Val Acc: 0.41633333333333333
+INFO:__main__:LR: 0.0001, Filters: 32, Val Acc: 0.475
+INFO:__main__:LR: 0.0001, Filters: 64, Val Acc: 0.5256666666666666
+INFO:__main__:Best model saved with accuracy: 0.6363333333333333, params: {'lr': 0.001, 'conv_filters': 64}
+INFO:__main__:Starting evaluation
+INFO:__main__:Loaded best conv_filters: 64
+INFO:__main__:Evaluation completed and report saved
+INFO:__main__:Pulling data for version: v3
+INFO:__main__:Checking out partitions/partition_v3.dvc
+INFO:__main__:Found 2000 images in partitions/partition_v3/airplane
+INFO:__main__:Found 2000 images in partitions/partition_v3/automobile
+INFO:__main__:Found 2000 images in partitions/partition_v3/bird
+INFO:__main__:Found 2000 images in partitions/partition_v3/cat
+INFO:__main__:Found 2000 images in partitions/partition_v3/deer
+INFO:__main__:Found 2000 images in partitions/partition_v3/dog
+INFO:__main__:Found 2000 images in partitions/partition_v3/frog
+INFO:__main__:Found 2000 images in partitions/partition_v3/horse
+INFO:__main__:Found 2000 images in partitions/partition_v3/ship
+INFO:__main__:Found 2000 images in partitions/partition_v3/truck
+INFO:__main__:Saved 20000 images to dataset.csv
+2025-03-23 14:14:26,442 - INFO - Starting data preparation
+2025-03-23 14:14:26,457 - INFO - Loaded dataset with 20000 samples
+2025-03-23 14:14:26,462 - INFO - Train split: 14000 samples
+2025-03-23 14:14:26,462 - INFO - Validation split: 3000 samples
+2025-03-23 14:14:26,462 - INFO - Test split: 3000 samples
+2025-03-23 14:14:26,486 - INFO - Data splits saved successfully
+INFO:__main__:Starting model training and tuning
+INFO:__main__:LR: 0.001, Filters: 16, Val Acc: 0.5893333333333334
+INFO:__main__:LR: 0.001, Filters: 32, Val Acc: 0.623
+INFO:__main__:LR: 0.001, Filters: 64, Val Acc: 0.6393333333333333
+INFO:__main__:LR: 0.0005, Filters: 16, Val Acc: 0.5473333333333333
+INFO:__main__:LR: 0.0005, Filters: 32, Val Acc: 0.596
+INFO:__main__:LR: 0.0005, Filters: 64, Val Acc: 0.6366666666666667
+INFO:__main__:LR: 0.0001, Filters: 16, Val Acc: 0.44133333333333336
+INFO:__main__:LR: 0.0001, Filters: 32, Val Acc: 0.48633333333333334
+INFO:__main__:LR: 0.0001, Filters: 64, Val Acc: 0.5476666666666666
+INFO:__main__:Best model saved with accuracy: 0.6393333333333333, params: {'lr': 0.001, 'conv_filters': 64}
+INFO:__main__:Starting evaluation
+INFO:__main__:Loaded best conv_filters: 64
+INFO:__main__:Evaluation completed and report saved
+INFO:__main__:Pulling data for version: v3
+INFO:__main__:Checking out partitions/partition_v3.dvc
+INFO:__main__:Found 2000 images in partitions/partition_v3/airplane
+INFO:__main__:Found 2000 images in partitions/partition_v3/automobile
+INFO:__main__:Found 2000 images in partitions/partition_v3/bird
+INFO:__main__:Found 2000 images in partitions/partition_v3/cat
+INFO:__main__:Found 2000 images in partitions/partition_v3/deer
+INFO:__main__:Found 2000 images in partitions/partition_v3/dog
+INFO:__main__:Found 2000 images in partitions/partition_v3/frog
+INFO:__main__:Found 2000 images in partitions/partition_v3/horse
+INFO:__main__:Found 2000 images in partitions/partition_v3/ship
+INFO:__main__:Found 2000 images in partitions/partition_v3/truck
+INFO:__main__:Saved 20000 images to dataset.csv
+2025-03-23 14:31:13,851 - INFO - Starting data preparation
+2025-03-23 14:31:13,880 - INFO - Loaded dataset with 20000 samples
+2025-03-23 14:31:13,890 - INFO - Train split: 14000 samples
+2025-03-23 14:31:13,890 - INFO - Validation split: 3000 samples
+2025-03-23 14:31:13,890 - INFO - Test split: 3000 samples
+2025-03-23 14:31:14,123 - INFO - Data splits saved successfully
+INFO:__main__:Starting model training and tuning
+INFO:__main__:LR: 0.001, Filters: 16, Val Acc: 0.5883333333333334
+INFO:__main__:LR: 0.001, Filters: 32, Val Acc: 0.6243333333333333
+INFO:__main__:LR: 0.001, Filters: 64, Val Acc: 0.6466666666666666
+INFO:__main__:LR: 0.0005, Filters: 16, Val Acc: 0.5626666666666666
+INFO:__main__:LR: 0.0005, Filters: 32, Val Acc: 0.582
+INFO:__main__:LR: 0.0005, Filters: 64, Val Acc: 0.6343333333333333
+INFO:__main__:LR: 0.0001, Filters: 16, Val Acc: 0.43733333333333335
+INFO:__main__:LR: 0.0001, Filters: 32, Val Acc: 0.503
+INFO:__main__:LR: 0.0001, Filters: 64, Val Acc: 0.5353333333333333
+INFO:__main__:Best model saved with accuracy: 0.6466666666666666, params: {'lr': 0.001, 'conv_filters': 64}
+INFO:__main__:Starting evaluation
+INFO:__main__:Loaded best conv_filters: 64
+INFO:__main__:Evaluation completed and report saved
+INFO:__main__:Pulling data for version: v1+v2
+INFO:__main__:Checking out partitions/partition_v1.dvc
+INFO:__main__:Found 2000 images in partitions/partition_v1/airplane
+INFO:__main__:Found 2000 images in partitions/partition_v1/automobile
+INFO:__main__:Found 2000 images in partitions/partition_v1/bird
+INFO:__main__:Found 2000 images in partitions/partition_v1/cat
+INFO:__main__:Found 2000 images in partitions/partition_v1/deer
+INFO:__main__:Found 2000 images in partitions/partition_v1/dog
+INFO:__main__:Found 2000 images in partitions/partition_v1/frog
+INFO:__main__:Found 2000 images in partitions/partition_v1/horse
+INFO:__main__:Found 2000 images in partitions/partition_v1/ship
+INFO:__main__:Found 2000 images in partitions/partition_v1/truck
+INFO:__main__:Checking out partitions/partition_v2.dvc
+INFO:__main__:Found 2000 images in partitions/partition_v2/airplane
+INFO:__main__:Found 2000 images in partitions/partition_v2/automobile
+INFO:__main__:Found 2000 images in partitions/partition_v2/bird
+INFO:__main__:Found 2000 images in partitions/partition_v2/cat
+INFO:__main__:Found 2000 images in partitions/partition_v2/deer
+INFO:__main__:Found 2000 images in partitions/partition_v2/dog
+INFO:__main__:Found 2000 images in partitions/partition_v2/frog
+INFO:__main__:Found 2000 images in partitions/partition_v2/horse
+INFO:__main__:Found 2000 images in partitions/partition_v2/ship
+INFO:__main__:Found 2000 images in partitions/partition_v2/truck
+INFO:__main__:Saved 40000 images to dataset.csv
+2025-03-23 14:48:18,773 - INFO - Starting data preparation
+2025-03-23 14:48:18,820 - INFO - Loaded dataset with 40000 samples
+2025-03-23 14:48:18,832 - INFO - Train split: 28000 samples
+2025-03-23 14:48:18,832 - INFO - Validation split: 6000 samples
+2025-03-23 14:48:18,832 - INFO - Test split: 6000 samples
+2025-03-23 14:48:18,913 - INFO - Data splits saved successfully
+INFO:__main__:Starting model training and tuning
+INFO:__main__:LR: 0.001, Filters: 16, Val Acc: 0.6118333333333333
+INFO:__main__:LR: 0.001, Filters: 32, Val Acc: 0.6675
+INFO:__main__:LR: 0.001, Filters: 64, Val Acc: 0.6765
+INFO:__main__:LR: 0.0005, Filters: 16, Val Acc: 0.5863333333333334
+INFO:__main__:LR: 0.0005, Filters: 32, Val Acc: 0.6508333333333334
+INFO:__main__:LR: 0.0005, Filters: 64, Val Acc: 0.664
+INFO:__main__:LR: 0.0001, Filters: 16, Val Acc: 0.4841666666666667
+INFO:__main__:LR: 0.0001, Filters: 32, Val Acc: 0.5373333333333333
+INFO:__main__:LR: 0.0001, Filters: 64, Val Acc: 0.5831666666666667
+INFO:__main__:Best model saved with accuracy: 0.6765, params: {'lr': 0.001, 'conv_filters': 64}
+INFO:__main__:Starting evaluation
+INFO:__main__:Loaded best conv_filters: 64
+INFO:__main__:Evaluation completed and report saved
+INFO:__main__:Pulling data for version: v1+v2
+INFO:__main__:Checking out partitions/partition_v1.dvc
+INFO:__main__:Found 2000 images in partitions/partition_v1/airplane
+INFO:__main__:Found 2000 images in partitions/partition_v1/automobile
+INFO:__main__:Found 2000 images in partitions/partition_v1/bird
+INFO:__main__:Found 2000 images in partitions/partition_v1/cat
+INFO:__main__:Found 2000 images in partitions/partition_v1/deer
+INFO:__main__:Found 2000 images in partitions/partition_v1/dog
+INFO:__main__:Found 2000 images in partitions/partition_v1/frog
+INFO:__main__:Found 2000 images in partitions/partition_v1/horse
+INFO:__main__:Found 2000 images in partitions/partition_v1/ship
+INFO:__main__:Found 2000 images in partitions/partition_v1/truck
+INFO:__main__:Checking out partitions/partition_v2.dvc
+INFO:__main__:Found 2000 images in partitions/partition_v2/airplane
+INFO:__main__:Found 2000 images in partitions/partition_v2/automobile
+INFO:__main__:Found 2000 images in partitions/partition_v2/bird
+INFO:__main__:Found 2000 images in partitions/partition_v2/cat
+INFO:__main__:Found 2000 images in partitions/partition_v2/deer
+INFO:__main__:Found 2000 images in partitions/partition_v2/dog
+INFO:__main__:Found 2000 images in partitions/partition_v2/frog
+INFO:__main__:Found 2000 images in partitions/partition_v2/horse
+INFO:__main__:Found 2000 images in partitions/partition_v2/ship
+INFO:__main__:Found 2000 images in partitions/partition_v2/truck
+INFO:__main__:Saved 40000 images to dataset.csv
+2025-03-23 18:26:26,345 - INFO - Starting data preparation
+2025-03-23 18:26:26,374 - INFO - Loaded dataset with 40000 samples
+2025-03-23 18:26:26,381 - INFO - Train split: 28000 samples
+2025-03-23 18:26:26,381 - INFO - Validation split: 6000 samples
+2025-03-23 18:26:26,381 - INFO - Test split: 6000 samples
+2025-03-23 18:26:26,423 - INFO - Data splits saved successfully
+INFO:__main__:Starting model training and tuning
+INFO:__main__:LR: 0.001, Filters: 16, Val Acc: 0.609
+INFO:__main__:LR: 0.001, Filters: 32, Val Acc: 0.6618333333333334
+INFO:__main__:LR: 0.001, Filters: 64, Val Acc: 0.6838333333333333
+INFO:__main__:LR: 0.0005, Filters: 16, Val Acc: 0.5976666666666667
+INFO:__main__:LR: 0.0005, Filters: 32, Val Acc: 0.6526666666666666
+INFO:__main__:LR: 0.0005, Filters: 64, Val Acc: 0.6871666666666667
+INFO:__main__:LR: 0.0001, Filters: 16, Val Acc: 0.47983333333333333
+INFO:__main__:LR: 0.0001, Filters: 32, Val Acc: 0.5306666666666666
+INFO:__main__:LR: 0.0001, Filters: 64, Val Acc: 0.5906666666666667
+INFO:__main__:Best model saved with accuracy: 0.6871666666666667, params: {'lr': 0.0005, 'conv_filters': 64}
+INFO:__main__:Starting evaluation
+INFO:__main__:Loaded best conv_filters: 64
+INFO:__main__:Evaluation completed and report saved
+INFO:__main__:Pulling data for version: v1+v2
+INFO:__main__:Checking out partitions/partition_v1.dvc
+INFO:__main__:Found 2000 images in partitions/partition_v1/airplane
+INFO:__main__:Found 2000 images in partitions/partition_v1/automobile
+INFO:__main__:Found 2000 images in partitions/partition_v1/bird
+INFO:__main__:Found 2000 images in partitions/partition_v1/cat
+INFO:__main__:Found 2000 images in partitions/partition_v1/deer
+INFO:__main__:Found 2000 images in partitions/partition_v1/dog
+INFO:__main__:Found 2000 images in partitions/partition_v1/frog
+INFO:__main__:Found 2000 images in partitions/partition_v1/horse
+INFO:__main__:Found 2000 images in partitions/partition_v1/ship
+INFO:__main__:Found 2000 images in partitions/partition_v1/truck
+INFO:__main__:Checking out partitions/partition_v2.dvc
+INFO:__main__:Found 2000 images in partitions/partition_v2/airplane
+INFO:__main__:Found 2000 images in partitions/partition_v2/automobile
+INFO:__main__:Found 2000 images in partitions/partition_v2/bird
+INFO:__main__:Found 2000 images in partitions/partition_v2/cat
+INFO:__main__:Found 2000 images in partitions/partition_v2/deer
+INFO:__main__:Found 2000 images in partitions/partition_v2/dog
+INFO:__main__:Found 2000 images in partitions/partition_v2/frog
+INFO:__main__:Found 2000 images in partitions/partition_v2/horse
+INFO:__main__:Found 2000 images in partitions/partition_v2/ship
+INFO:__main__:Found 2000 images in partitions/partition_v2/truck
+INFO:__main__:Saved 40000 images to dataset.csv
+2025-03-23 18:50:09,256 - INFO - Starting data preparation
+2025-03-23 18:50:09,281 - INFO - Loaded dataset with 40000 samples
+2025-03-23 18:50:09,286 - INFO - Train split: 28000 samples
+2025-03-23 18:50:09,286 - INFO - Validation split: 6000 samples
+2025-03-23 18:50:09,286 - INFO - Test split: 6000 samples
+2025-03-23 18:50:09,327 - INFO - Data splits saved successfully
+INFO:__main__:Starting model training and tuning
+INFO:__main__:LR: 0.001, Filters: 16, Val Acc: 0.6185
+INFO:__main__:LR: 0.001, Filters: 32, Val Acc: 0.6516666666666666
+INFO:__main__:LR: 0.001, Filters: 64, Val Acc: 0.669
+INFO:__main__:LR: 0.0005, Filters: 16, Val Acc: 0.5853333333333334
+INFO:__main__:LR: 0.0005, Filters: 32, Val Acc: 0.6361666666666667
+INFO:__main__:LR: 0.0005, Filters: 64, Val Acc: 0.6693333333333333
+INFO:__main__:LR: 0.0001, Filters: 16, Val Acc: 0.4825
+INFO:__main__:LR: 0.0001, Filters: 32, Val Acc: 0.5251666666666667
+INFO:__main__:LR: 0.0001, Filters: 64, Val Acc: 0.577
+INFO:__main__:Best model saved with accuracy: 0.6693333333333333, params: {'lr': 0.0005, 'conv_filters': 64}
+INFO:__main__:Starting evaluation
+INFO:__main__:Loaded best conv_filters: 64
+INFO:__main__:Evaluation completed and report saved
+INFO:__main__:Pulling data for version: v1+v2+v3
+INFO:__main__:Checking out partitions/partition_v1.dvc
+INFO:__main__:Found 2000 images in partitions/partition_v1/airplane
+INFO:__main__:Found 2000 images in partitions/partition_v1/automobile
+INFO:__main__:Found 2000 images in partitions/partition_v1/bird
+INFO:__main__:Found 2000 images in partitions/partition_v1/cat
+INFO:__main__:Found 2000 images in partitions/partition_v1/deer
+INFO:__main__:Found 2000 images in partitions/partition_v1/dog
+INFO:__main__:Found 2000 images in partitions/partition_v1/frog
+INFO:__main__:Found 2000 images in partitions/partition_v1/horse
+INFO:__main__:Found 2000 images in partitions/partition_v1/ship
+INFO:__main__:Found 2000 images in partitions/partition_v1/truck
+INFO:__main__:Checking out partitions/partition_v2.dvc
+INFO:__main__:Found 2000 images in partitions/partition_v2/airplane
+INFO:__main__:Found 2000 images in partitions/partition_v2/automobile
+INFO:__main__:Found 2000 images in partitions/partition_v2/bird
+INFO:__main__:Found 2000 images in partitions/partition_v2/cat
+INFO:__main__:Found 2000 images in partitions/partition_v2/deer
+INFO:__main__:Found 2000 images in partitions/partition_v2/dog
+INFO:__main__:Found 2000 images in partitions/partition_v2/frog
+INFO:__main__:Found 2000 images in partitions/partition_v2/horse
+INFO:__main__:Found 2000 images in partitions/partition_v2/ship
+INFO:__main__:Found 2000 images in partitions/partition_v2/truck
+INFO:__main__:Checking out partitions/partition_v3.dvc
+INFO:__main__:Found 2000 images in partitions/partition_v3/airplane
+INFO:__main__:Found 2000 images in partitions/partition_v3/automobile
+INFO:__main__:Found 2000 images in partitions/partition_v3/bird
+INFO:__main__:Found 2000 images in partitions/partition_v3/cat
+INFO:__main__:Found 2000 images in partitions/partition_v3/deer
+INFO:__main__:Found 2000 images in partitions/partition_v3/dog
+INFO:__main__:Found 2000 images in partitions/partition_v3/frog
+INFO:__main__:Found 2000 images in partitions/partition_v3/horse
+INFO:__main__:Found 2000 images in partitions/partition_v3/ship
+INFO:__main__:Found 2000 images in partitions/partition_v3/truck
+INFO:__main__:Saved 60000 images to dataset.csv
+2025-03-23 19:15:52,683 - INFO - Starting data preparation
+2025-03-23 19:15:52,742 - INFO - Loaded dataset with 60000 samples
+2025-03-23 19:15:52,751 - INFO - Train split: 42000 samples
+2025-03-23 19:15:52,751 - INFO - Validation split: 9000 samples
+2025-03-23 19:15:52,751 - INFO - Test split: 9000 samples
+2025-03-23 19:15:52,848 - INFO - Data splits saved successfully
+INFO:__main__:Starting model training and tuning
+INFO:__main__:LR: 0.001, Filters: 16, Val Acc: 0.6444444444444445
+INFO:__main__:LR: 0.001, Filters: 32, Val Acc: 0.6923333333333334
+INFO:__main__:LR: 0.001, Filters: 64, Val Acc: 0.7034444444444444
+INFO:__main__:LR: 0.0005, Filters: 16, Val Acc: 0.6286666666666667
+INFO:__main__:LR: 0.0005, Filters: 32, Val Acc: 0.6658888888888889
+INFO:__main__:LR: 0.0005, Filters: 64, Val Acc: 0.7061111111111111
+INFO:__main__:LR: 0.0001, Filters: 16, Val Acc: 0.5056666666666667
+INFO:__main__:LR: 0.0001, Filters: 32, Val Acc: 0.5594444444444444
+INFO:__main__:LR: 0.0001, Filters: 64, Val Acc: 0.6053333333333333
+INFO:__main__:Best model saved with accuracy: 0.7061111111111111, params: {'lr': 0.0005, 'conv_filters': 64}
+INFO:__main__:Starting evaluation
+INFO:__main__:Loaded best conv_filters: 64
+INFO:__main__:Saved 2672 misclassified images to misclassified.csv
+INFO:__main__:Evaluation completed
+INFO:__main__:Pulling data for version: v1+v2+v3
+INFO:__main__:Checking out partitions/partition_v1.dvc
+INFO:__main__:Found 2000 images in partitions/partition_v1/airplane
+INFO:__main__:Found 2000 images in partitions/partition_v1/automobile
+INFO:__main__:Found 2000 images in partitions/partition_v1/bird
+INFO:__main__:Found 2000 images in partitions/partition_v1/cat
+INFO:__main__:Found 2000 images in partitions/partition_v1/deer
+INFO:__main__:Found 2000 images in partitions/partition_v1/dog
+INFO:__main__:Found 2000 images in partitions/partition_v1/frog
+INFO:__main__:Found 2000 images in partitions/partition_v1/horse
+INFO:__main__:Found 2000 images in partitions/partition_v1/ship
+INFO:__main__:Found 2000 images in partitions/partition_v1/truck
+INFO:__main__:Checking out partitions/partition_v2.dvc
+INFO:__main__:Found 2000 images in partitions/partition_v2/airplane
+INFO:__main__:Found 2000 images in partitions/partition_v2/automobile
+INFO:__main__:Found 2000 images in partitions/partition_v2/bird
+INFO:__main__:Found 2000 images in partitions/partition_v2/cat
+INFO:__main__:Found 2000 images in partitions/partition_v2/deer
+INFO:__main__:Found 2000 images in partitions/partition_v2/dog
+INFO:__main__:Found 2000 images in partitions/partition_v2/frog
+INFO:__main__:Found 2000 images in partitions/partition_v2/horse
+INFO:__main__:Found 2000 images in partitions/partition_v2/ship
+INFO:__main__:Found 2000 images in partitions/partition_v2/truck
+INFO:__main__:Checking out partitions/partition_v3.dvc
+INFO:__main__:Found 2000 images in partitions/partition_v3/airplane
+INFO:__main__:Found 2000 images in partitions/partition_v3/automobile
+INFO:__main__:Found 2000 images in partitions/partition_v3/bird
+INFO:__main__:Found 2000 images in partitions/partition_v3/cat
+INFO:__main__:Found 2000 images in partitions/partition_v3/deer
+INFO:__main__:Found 2000 images in partitions/partition_v3/dog
+INFO:__main__:Found 2000 images in partitions/partition_v3/frog
+INFO:__main__:Found 2000 images in partitions/partition_v3/horse
+INFO:__main__:Found 2000 images in partitions/partition_v3/ship
+INFO:__main__:Found 2000 images in partitions/partition_v3/truck
+INFO:__main__:Saved 60000 images to dataset.csv
+2025-03-23 20:01:21,917 - INFO - Starting data preparation
+2025-03-23 20:01:22,038 - INFO - Loaded dataset with 60000 samples
+2025-03-23 20:01:22,055 - INFO - Train split: 42000 samples
+2025-03-23 20:01:22,055 - INFO - Validation split: 9000 samples
+2025-03-23 20:01:22,055 - INFO - Test split: 9000 samples
+2025-03-23 20:01:22,335 - INFO - Data splits saved successfully
+INFO:__main__:Starting model training and tuning
+INFO:__main__:LR: 0.001, Filters: 16, Val Acc: 0.6453333333333333
+INFO:__main__:LR: 0.001, Filters: 32, Val Acc: 0.6768888888888889
+INFO:__main__:LR: 0.001, Filters: 64, Val Acc: 0.7052222222222222
+INFO:__main__:LR: 0.0005, Filters: 16, Val Acc: 0.6281111111111111
+INFO:__main__:LR: 0.0005, Filters: 32, Val Acc: 0.6513333333333333
+INFO:__main__:LR: 0.0005, Filters: 64, Val Acc: 0.699
+INFO:__main__:LR: 0.0001, Filters: 16, Val Acc: 0.5201111111111111
+INFO:__main__:LR: 0.0001, Filters: 32, Val Acc: 0.5628888888888889
+INFO:__main__:LR: 0.0001, Filters: 64, Val Acc: 0.6158888888888889
+INFO:__main__:Best model saved with accuracy: 0.7052222222222222, params: {'lr': 0.001, 'conv_filters': 64}
+INFO:__main__:Starting evaluation
+INFO:__main__:Loaded best conv_filters: 64
+INFO:__main__:Saved 2717 misclassified images to misclassified.csv
+INFO:__main__:Evaluation completed
+INFO:__main__:Pulling data for version: v1+v2+v3
+INFO:__main__:Checking out partitions/partition_v1.dvc
+INFO:__main__:Found 2000 images in partitions/partition_v1/airplane
+INFO:__main__:Found 2000 images in partitions/partition_v1/automobile
+INFO:__main__:Found 2000 images in partitions/partition_v1/bird
+INFO:__main__:Found 2000 images in partitions/partition_v1/cat
+INFO:__main__:Found 2000 images in partitions/partition_v1/deer
+INFO:__main__:Found 2000 images in partitions/partition_v1/dog
+INFO:__main__:Found 2000 images in partitions/partition_v1/frog
+INFO:__main__:Found 2000 images in partitions/partition_v1/horse
+INFO:__main__:Found 2000 images in partitions/partition_v1/ship
+INFO:__main__:Found 2000 images in partitions/partition_v1/truck
+INFO:__main__:Checking out partitions/partition_v2.dvc
+INFO:__main__:Found 2000 images in partitions/partition_v2/airplane
+INFO:__main__:Found 2000 images in partitions/partition_v2/automobile
+INFO:__main__:Found 2000 images in partitions/partition_v2/bird
+INFO:__main__:Found 2000 images in partitions/partition_v2/cat
+INFO:__main__:Found 2000 images in partitions/partition_v2/deer
+INFO:__main__:Found 2000 images in partitions/partition_v2/dog
+INFO:__main__:Found 2000 images in partitions/partition_v2/frog
+INFO:__main__:Found 2000 images in partitions/partition_v2/horse
+INFO:__main__:Found 2000 images in partitions/partition_v2/ship
+INFO:__main__:Found 2000 images in partitions/partition_v2/truck
+INFO:__main__:Checking out partitions/partition_v3.dvc
+INFO:__main__:Found 2000 images in partitions/partition_v3/airplane
+INFO:__main__:Found 2000 images in partitions/partition_v3/automobile
+INFO:__main__:Found 2000 images in partitions/partition_v3/bird
+INFO:__main__:Found 2000 images in partitions/partition_v3/cat
+INFO:__main__:Found 2000 images in partitions/partition_v3/deer
+INFO:__main__:Found 2000 images in partitions/partition_v3/dog
+INFO:__main__:Found 2000 images in partitions/partition_v3/frog
+INFO:__main__:Found 2000 images in partitions/partition_v3/horse
+INFO:__main__:Found 2000 images in partitions/partition_v3/ship
+INFO:__main__:Found 2000 images in partitions/partition_v3/truck
+INFO:__main__:Saved 60000 images to dataset.csv
+2025-03-23 21:09:58,755 - INFO - Starting data preparation
+2025-03-23 21:09:58,872 - INFO - Loaded dataset with 60000 samples
+2025-03-23 21:09:58,892 - INFO - Train split: 42000 samples
+2025-03-23 21:09:58,892 - INFO - Validation split: 9000 samples
+2025-03-23 21:09:58,892 - INFO - Test split: 9000 samples
+2025-03-23 21:09:59,146 - INFO - Data splits saved successfully
+INFO:__main__:Starting model training and tuning
+INFO:__main__:LR: 0.001, Filters: 16, Val Acc: 0.6582222222222223
+INFO:__main__:LR: 0.001, Filters: 32, Val Acc: 0.6893333333333334
+INFO:__main__:LR: 0.001, Filters: 64, Val Acc: 0.7077777777777777
+INFO:__main__:LR: 0.0005, Filters: 16, Val Acc: 0.6077777777777778
+INFO:__main__:LR: 0.0005, Filters: 32, Val Acc: 0.6732222222222223
+INFO:__main__:LR: 0.0005, Filters: 64, Val Acc: 0.7143333333333334
+INFO:__main__:LR: 0.0001, Filters: 16, Val Acc: 0.5001111111111111
+INFO:__main__:LR: 0.0001, Filters: 32, Val Acc: 0.566
+INFO:__main__:LR: 0.0001, Filters: 64, Val Acc: 0.6164444444444445
+INFO:__main__:Best model saved with accuracy: 0.7143333333333334, params: {'lr': 0.0005, 'conv_filters': 64}
+INFO:__main__:Starting evaluation
+INFO:__main__:Loaded best conv_filters: 64
+INFO:__main__:Saved 2704 misclassified images to misclassified.csv
+INFO:__main__:Evaluation completed
+INFO:__main__:Pulling data for version: v1
+INFO:__main__:Checking out partitions/partition_v1.dvc
+INFO:__main__:Found 2000 images in partitions/partition_v1/airplane
+INFO:__main__:Found 2000 images in partitions/partition_v1/automobile
+INFO:__main__:Found 2000 images in partitions/partition_v1/bird
+INFO:__main__:Found 2000 images in partitions/partition_v1/cat
+INFO:__main__:Found 2000 images in partitions/partition_v1/deer
+INFO:__main__:Found 2000 images in partitions/partition_v1/dog
+INFO:__main__:Found 2000 images in partitions/partition_v1/frog
+INFO:__main__:Found 2000 images in partitions/partition_v1/horse
+INFO:__main__:Found 2000 images in partitions/partition_v1/ship
+INFO:__main__:Found 2000 images in partitions/partition_v1/truck
+INFO:__main__:Saved 20000 images to dataset.csv
+2025-03-23 23:14:05,727 - INFO - Starting data preparation
+2025-03-23 23:14:05,760 - INFO - Loaded dataset with 20000 samples
+2025-03-23 23:14:05,771 - INFO - Train split: 14000 samples
+2025-03-23 23:14:05,771 - INFO - Validation split: 3000 samples
+2025-03-23 23:14:05,771 - INFO - Test split: 3000 samples
+2025-03-23 23:14:05,828 - INFO - Data splits saved successfully
+INFO:__main__:Starting model training and tuning
+INFO:__main__:LR: 0.001, Filters: 16, Val Acc: 0.5733333333333334
+INFO:__main__:LR: 0.001, Filters: 32, Val Acc: 0.615
+INFO:__main__:LR: 0.001, Filters: 64, Val Acc: 0.6293333333333333
+INFO:__main__:LR: 0.0005, Filters: 16, Val Acc: 0.5316666666666666
+INFO:__main__:LR: 0.0005, Filters: 32, Val Acc: 0.5786666666666667
+INFO:__main__:LR: 0.0005, Filters: 64, Val Acc: 0.6403333333333333
+INFO:__main__:LR: 0.0001, Filters: 16, Val Acc: 0.43933333333333335
+INFO:__main__:LR: 0.0001, Filters: 32, Val Acc: 0.475
+INFO:__main__:LR: 0.0001, Filters: 64, Val Acc: 0.5253333333333333
+INFO:__main__:Best model saved with accuracy: 0.6403333333333333, params: {'lr': 0.0005, 'conv_filters': 64}
+INFO:__main__:Starting evaluation
+INFO:__main__:Loaded best conv_filters: 64
+INFO:__main__:Saved 1127 misclassified images to misclassified.csv
+INFO:__main__:Evaluation completed
+INFO:__main__:Pulling data for version: v1+v2
+INFO:__main__:Checking out partitions/partition_v1.dvc
+INFO:__main__:Found 2000 images in partitions/partition_v1/airplane
+INFO:__main__:Found 2000 images in partitions/partition_v1/automobile
+INFO:__main__:Found 2000 images in partitions/partition_v1/bird
+INFO:__main__:Found 2000 images in partitions/partition_v1/cat
+INFO:__main__:Found 2000 images in partitions/partition_v1/deer
+INFO:__main__:Found 2000 images in partitions/partition_v1/dog
+INFO:__main__:Found 2000 images in partitions/partition_v1/frog
+INFO:__main__:Found 2000 images in partitions/partition_v1/horse
+INFO:__main__:Found 2000 images in partitions/partition_v1/ship
+INFO:__main__:Found 2000 images in partitions/partition_v1/truck
+INFO:__main__:Checking out partitions/partition_v2.dvc
+INFO:__main__:Found 2000 images in partitions/partition_v2/airplane
+INFO:__main__:Found 2000 images in partitions/partition_v2/automobile
+INFO:__main__:Found 2000 images in partitions/partition_v2/bird
+INFO:__main__:Found 2000 images in partitions/partition_v2/cat
+INFO:__main__:Found 2000 images in partitions/partition_v2/deer
+INFO:__main__:Found 2000 images in partitions/partition_v2/dog
+INFO:__main__:Found 2000 images in partitions/partition_v2/frog
+INFO:__main__:Found 2000 images in partitions/partition_v2/horse
+INFO:__main__:Found 2000 images in partitions/partition_v2/ship
+INFO:__main__:Found 2000 images in partitions/partition_v2/truck
+INFO:__main__:Saved 40000 images to dataset.csv
+2025-03-23 23:32:08,390 - INFO - Starting data preparation
+2025-03-23 23:32:08,470 - INFO - Loaded dataset with 40000 samples
+2025-03-23 23:32:08,481 - INFO - Train split: 28000 samples
+2025-03-23 23:32:08,482 - INFO - Validation split: 6000 samples
+2025-03-23 23:32:08,482 - INFO - Test split: 6000 samples
+2025-03-23 23:32:08,607 - INFO - Data splits saved successfully
+INFO:__main__:Starting model training and tuning
+INFO:__main__:LR: 0.001, Filters: 16, Val Acc: 0.6141666666666666
+INFO:__main__:LR: 0.001, Filters: 32, Val Acc: 0.6475
+INFO:__main__:LR: 0.001, Filters: 64, Val Acc: 0.6731666666666667
+INFO:__main__:LR: 0.0005, Filters: 16, Val Acc: 0.589
+INFO:__main__:LR: 0.0005, Filters: 32, Val Acc: 0.639
+INFO:__main__:LR: 0.0005, Filters: 64, Val Acc: 0.6721666666666667
+INFO:__main__:LR: 0.0001, Filters: 16, Val Acc: 0.4805
+INFO:__main__:LR: 0.0001, Filters: 32, Val Acc: 0.538
+INFO:__main__:LR: 0.0001, Filters: 64, Val Acc: 0.5833333333333334
+INFO:__main__:Best model saved with accuracy: 0.6731666666666667, params: {'lr': 0.001, 'conv_filters': 64}
+INFO:__main__:Starting evaluation
+INFO:__main__:Loaded best conv_filters: 64
+INFO:__main__:Saved 1907 misclassified images to misclassified.csv
+INFO:__main__:Evaluation completed
+INFO:__main__:Pulling data for version: v1+v2+v3
+INFO:__main__:Checking out partitions/partition_v1.dvc
+INFO:__main__:Found 2000 images in partitions/partition_v1/airplane
+INFO:__main__:Found 2000 images in partitions/partition_v1/automobile
+INFO:__main__:Found 2000 images in partitions/partition_v1/bird
+INFO:__main__:Found 2000 images in partitions/partition_v1/cat
+INFO:__main__:Found 2000 images in partitions/partition_v1/deer
+INFO:__main__:Found 2000 images in partitions/partition_v1/dog
+INFO:__main__:Found 2000 images in partitions/partition_v1/frog
+INFO:__main__:Found 2000 images in partitions/partition_v1/horse
+INFO:__main__:Found 2000 images in partitions/partition_v1/ship
+INFO:__main__:Found 2000 images in partitions/partition_v1/truck
+INFO:__main__:Checking out partitions/partition_v2.dvc
+INFO:__main__:Found 2000 images in partitions/partition_v2/airplane
+INFO:__main__:Found 2000 images in partitions/partition_v2/automobile
+INFO:__main__:Found 2000 images in partitions/partition_v2/bird
+INFO:__main__:Found 2000 images in partitions/partition_v2/cat
+INFO:__main__:Found 2000 images in partitions/partition_v2/deer
+INFO:__main__:Found 2000 images in partitions/partition_v2/dog
+INFO:__main__:Found 2000 images in partitions/partition_v2/frog
+INFO:__main__:Found 2000 images in partitions/partition_v2/horse
+INFO:__main__:Found 2000 images in partitions/partition_v2/ship
+INFO:__main__:Found 2000 images in partitions/partition_v2/truck
+INFO:__main__:Checking out partitions/partition_v3.dvc
+INFO:__main__:Found 2000 images in partitions/partition_v3/airplane
+INFO:__main__:Found 2000 images in partitions/partition_v3/automobile
+INFO:__main__:Found 2000 images in partitions/partition_v3/bird
+INFO:__main__:Found 2000 images in partitions/partition_v3/cat
+INFO:__main__:Found 2000 images in partitions/partition_v3/deer
+INFO:__main__:Found 2000 images in partitions/partition_v3/dog
+INFO:__main__:Found 2000 images in partitions/partition_v3/frog
+INFO:__main__:Found 2000 images in partitions/partition_v3/horse
+INFO:__main__:Found 2000 images in partitions/partition_v3/ship
+INFO:__main__:Found 2000 images in partitions/partition_v3/truck
+INFO:__main__:Saved 60000 images to dataset.csv
+2025-03-24 00:07:14,434 - INFO - Starting data preparation
+2025-03-24 00:07:14,484 - INFO - Loaded dataset with 60000 samples
+2025-03-24 00:07:14,491 - INFO - Train split: 42000 samples
+2025-03-24 00:07:14,491 - INFO - Validation split: 9000 samples
+2025-03-24 00:07:14,491 - INFO - Test split: 9000 samples
+2025-03-24 00:07:14,570 - INFO - Data splits saved successfully
+INFO:__main__:Starting model training and tuning
+INFO:__main__:LR: 0.001, Filters: 16, Val Acc: 0.6417777777777778
+INFO:__main__:LR: 0.001, Filters: 32, Val Acc: 0.6876666666666666
+INFO:__main__:LR: 0.001, Filters: 64, Val Acc: 0.6734444444444444
+INFO:__main__:LR: 0.0005, Filters: 16, Val Acc: 0.6236666666666667
+INFO:__main__:LR: 0.0005, Filters: 32, Val Acc: 0.6416666666666667
+INFO:__main__:LR: 0.0005, Filters: 64, Val Acc: 0.7041111111111111
+INFO:__main__:LR: 0.0001, Filters: 16, Val Acc: 0.5226666666666666
+INFO:__main__:LR: 0.0001, Filters: 32, Val Acc: 0.569
+INFO:__main__:LR: 0.0001, Filters: 64, Val Acc: 0.6163333333333333
+INFO:__main__:Best model saved with accuracy: 0.7041111111111111, params: {'lr': 0.0005, 'conv_filters': 64}
+INFO:__main__:Starting evaluation
+INFO:__main__:Loaded best conv_filters: 64
+INFO:__main__:Saved 2698 misclassified images to misclassified.csv
+INFO:__main__:Evaluation completed

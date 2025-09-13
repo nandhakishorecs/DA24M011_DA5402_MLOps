@@ -1,0 +1,43 @@
+stages:
+  pull_data:
+    cmd: python pull_data.py
+    deps:
+      - pull_data.py
+      - params.yaml
+    outs:
+      - dataset.csv
+  prepare_data:
+    cmd: python prepare_data.py
+    deps:
+      - dataset.csv
+      - prepare_data.py
+      - params.yaml
+    outs:
+      - train.csv
+      - val.csv
+      - test.csv
+  train_model:
+    cmd: python train_model.py
+    deps:
+      - train.csv
+      - val.csv
+      - train_model.py
+      - params.yaml
+    outs:
+      - model.pth
+      - best_params.json
+
+  evaluate:
+    cmd: python evaluate.py
+    deps:
+      - model.pth
+      - test.csv
+      - best_params.json
+      - evaluate.py
+      - params.yaml
+    outs:
+      - report.txt
+      - misclassified.csv
+    metrics:
+      - metrics.json:
+          cache: false

@@ -1,0 +1,10 @@
+Confusion Matrix:
+           Ground Truth        
+           POSITIVE   NEGATIVE  
+Predicted 
+POSITIVE   242        9         
+NEGATIVE   63         51        
+
+Metrics:
+Precision: 0.9641
+Recall: 0.7934

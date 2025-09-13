@@ -1,0 +1,10 @@
+/A5
+/model.pth
+/best_params.json
+/report.txt
+/dataset.csv
+/train.csv
+/val.csv
+/test.csv
+/misclassified.csv
+/__pycache__

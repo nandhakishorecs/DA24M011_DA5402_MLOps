@@ -1,0 +1,12 @@
+pyspark 
+transformers
+pandas
+numpy
+scikit-learn
+seaborn
+matplotlib
+tensorflow-macos
+tf_keras
+hf_xet # Hugging face dependency 
+torch
+datasets 
